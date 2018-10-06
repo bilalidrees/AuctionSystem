@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bilalidrees.auctionsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.User" />
+        <activity android:name=".Selection_Panel.Auctioner_Selection_panel" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Mobile_Phone.Mobile_Phone" />
+        <activity android:name=".refrigerator.Refrigerator" />
+        <activity android:name=".Homepage.HomePage" />
+        <activity android:name=".Product_discription.Product_discription" />
+        <activity android:name=".Selection_Panel.Bidder_Selection_Panel" />
+        <activity android:name=".ListItems.Auctioner_selected_itemslist" />
+        <activity android:name=".ListItems.Bidder_selected_itemslist" />
+        <activity android:name=".Selection_Panel.Bidder_item_selection_panel" />
+        <activity android:name=".Selection_Panel.Auctioner_ResonseSelection_panel" />
+        <activity android:name=".Place_bid.Place_bidd" />
+        <activity android:name=".Response.Response" />
+        <activity android:name=".Chat.chat_list" />
+        <activity android:name=".Response.Response_bidder_status"></activity>
+    </application>
+
+</manifest>

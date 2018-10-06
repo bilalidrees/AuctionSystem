@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "229011031985",
+    "firebase_url": "https://auction-system-9c86e.firebaseio.com",
+    "project_id": "auction-system-9c86e",
+    "storage_bucket": "auction-system-9c86e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229011031985:android:0d303bdc0988e700",
+        "android_client_info": {
+          "package_name": "com.example.bilalidrees.auctionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229011031985-7914cbfn3thaepqmr7jdddl71s3v7f5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalidrees.auctionsystem",
+            "certificate_hash": "126bac1598607ff62938707498d3db1031045c9c"
+          }
+        },
+        {
+          "client_id": "229011031985-v8k1igl7o350p073v4e8hpl0bc5nrd7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqumcQ1oXqZFVqx9F-9mcmSddvD8KuLqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229011031985-v8k1igl7o350p073v4e8hpl0bc5nrd7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

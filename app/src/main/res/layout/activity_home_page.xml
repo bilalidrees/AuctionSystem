@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage.HomePage"
+    android:background="#62ccd0">
+
+    <TextView
+        android:id="@+id/selected_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME PAGE"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/checkresponse"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/auctioner"
+        android:layout_width="200dp"
+        android:layout_height="152dp"
+        android:layout_below="@+id/selected_option"
+        android:layout_centerInParent="true"
+        android:src="@drawable/auctioner" />
+
+    <TextView
+        android:id="@+id/selected_auctioner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue  as Auctioner"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/auctioner"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/bidder"
+        android:layout_width="200dp"
+        android:layout_height="152dp"
+        android:layout_below="@+id/selected_auctioner"
+        android:layout_centerInParent="true"
+        android:src="@drawable/bidder" />
+
+    <TextView
+        android:id="@+id/selected_bidder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue  as Bidder"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/bidder"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

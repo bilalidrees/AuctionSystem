@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Place_bid.Place_bidd">
+
+
+
+
+    <TextView
+        android:id="@+id/bidder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BIDDER NAME"
+        android:textSize="30sp"
+        android:layout_below="@+id/time_counter"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/bidder_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BIDDER EMAIL"
+        android:textSize="30sp"
+        android:layout_below="@+id/bidder_name"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/bidder_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BIDDER PHONE"
+        android:textSize="30sp"
+        android:layout_below="@+id/bidder_email"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/bidder_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BIDDER BID"
+        android:textSize="30sp"
+        android:layout_below="@+id/bidder_phone"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bidder_bid"
+        android:layout_marginTop="50dp"
+        android:text="Start Chat"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"/>
+
+
+
+</RelativeLayout>

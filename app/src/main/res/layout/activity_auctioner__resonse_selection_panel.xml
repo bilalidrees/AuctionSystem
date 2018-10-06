@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selection_Panel.Auctioner_ResonseSelection_panel">
+
+
+
+    <Button
+        android:id="@+id/past_auction"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="30dp"
+        android:text="Past Auction"
+
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/live_auction"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginBottom="14dp"
+        android:layout_below="@+id/past_auction"
+        android:layout_marginTop="30dp"
+        android:text="Live Auction"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/upcoming_auction"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@+id/live_auction"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="25dp"
+        android:text="Upcoming Auction"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

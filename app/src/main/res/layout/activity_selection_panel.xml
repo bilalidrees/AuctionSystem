@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Selection_Panel.Auctioner_Selection_panel">
+
+
+    <RelativeLayout
+        android:id="@+id/actionrv"
+        android:layout_width="match_parent"
+        android:layout_height="201dp">
+
+        <Button
+            android:id="@+id/placeorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            tools:ignore="InvalidId"
+            android:text="Place order"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/checkresponse"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_below="@id/placeorder"
+            android:text="Check Response"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/selected_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected  Option"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/checkresponse"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/categoryrv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/textcatagory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="CATEGORIES"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_below="@+id/textcatagory"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+            <RadioButton
+                android:id="@+id/radiomobile"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Mobile Phones"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <RadioButton
+                android:id="@+id/radiofridge"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:text="Refrigerator"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:text="Proceed"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

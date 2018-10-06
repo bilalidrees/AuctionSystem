@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selection_Panel.Bidder_item_selection_panel">
+
+
+    <Button
+        android:id="@+id/product_discription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRODUCT_DISCRIPTION"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/place_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLACE_BID"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/product_discription"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/other_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other'S responses"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/place_bid"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
